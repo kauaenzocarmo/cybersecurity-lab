@@ -1,0 +1,22 @@
+● bluetooth.service - Bluetooth service
+     Loaded: loaded (/usr/lib/systemd/system/bluetooth.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-09-27 20:55:11 -03; 3h 49min ago
+       Docs: man:bluetoothd(8)
+   Main PID: 772 (bluetoothd)
+     Status: "Running"
+      Tasks: 1 (limit: 1235)
+     Memory: 404.0K (peak: 3.6M swap: 512.0K swap peak: 520.0K)
+        CPU: 61ms
+     CGroup: /system.slice/bluetooth.service
+             └─772 /usr/libexec/bluetooth/bluetoothd
+
+set 27 20:55:11 enzo systemd[1]: Started bluetooth.service - Bluetooth service.
+set 27 20:55:11 enzo bluetoothd[772]: Starting SDP server
+set 27 20:55:11 enzo bluetoothd[772]: src/plugin.c:plugin_init() System does not support csip plugin
+set 27 20:55:11 enzo bluetoothd[772]: profiles/audio/micp.c:micp_init() D-Bus experimental not enabled
+set 27 20:55:11 enzo bluetoothd[772]: src/plugin.c:plugin_init() System does not support micp plugin
+set 27 20:55:11 enzo bluetoothd[772]: src/plugin.c:plugin_init() System does not support vcp plugin
+set 27 20:55:11 enzo bluetoothd[772]: src/plugin.c:plugin_init() System does not support mcp plugin
+set 27 20:55:11 enzo bluetoothd[772]: src/plugin.c:plugin_init() System does not support bass plugin
+set 27 20:55:11 enzo bluetoothd[772]: src/plugin.c:plugin_init() System does not support bap plugin
+set 27 20:55:12 enzo bluetoothd[772]: Bluetooth management interface 1.23 initialized

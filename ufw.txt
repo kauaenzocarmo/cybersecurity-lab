@@ -1,0 +1,4 @@
+Estado: ativo
+Logando: on (low)
+Predefinido: deny (entrada), allow (saída), disabled (roteado)
+Novos perfis: skip

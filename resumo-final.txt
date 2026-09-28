@@ -1,0 +1,21 @@
+=== RESUMO DO PROJETO ===
+
+Projeto: Cybersecurity Lab — Linux Security
+Sistema: Linux Mint 22.3
+Objetivo: avaliação e fortalecimento da segurança do sistema
+
+=== FERRAMENTAS ===
+Nmap
+UFW
+ss
+systemctl
+CUPS
+Avahi
+
+=== RESULTADOS ===
+Firewall UFW: ativo
+Política de entrada: deny
+Porta TCP identificada no localhost: 631 (CUPS)
+CUPS: limitado ao localhost
+Avahi: serviço de descoberta de dispositivos na rede local
+Atualizações de segurança: aplicadas

@@ -1,0 +1,13 @@
+Netid State  Recv-Q Send-Q                       Local Address:Port  Peer Address:PortProcess                                   
+udp   UNCONN 0      0                                  0.0.0.0:5353       0.0.0.0:*    users:(("avahi-daemon",pid=594,fd=12))   
+udp   UNCONN 0      0                                  0.0.0.0:50535      0.0.0.0:*    users:(("avahi-daemon",pid=594,fd=14))   
+udp   UNCONN 0      0                               127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=425,fd=16))
+udp   UNCONN 0      0                            127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=425,fd=14))
+udp   UNCONN 0      0                                     [::]:5353          [::]:*    users:(("avahi-daemon",pid=594,fd=13))   
+udp   UNCONN 0      0      [fe80::794e:d352:4cf:d743]%wlp2s0b1:546           [::]:*    users:(("NetworkManager",pid=805,fd=28)) 
+udp   UNCONN 0      0                                        *:50735            *:*    users:(("firefox-bin",pid=9930,fd=118))  
+udp   UNCONN 0      0                                     [::]:35396         [::]:*    users:(("avahi-daemon",pid=594,fd=15))   
+tcp   LISTEN 0      4096                         127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=425,fd=15))
+tcp   LISTEN 0      4096                             127.0.0.1:631        0.0.0.0:*    users:(("cupsd",pid=9867,fd=7))          
+tcp   LISTEN 0      4096                            127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=425,fd=17))
+tcp   LISTEN 0      4096                                 [::1]:631           [::]:*    users:(("cupsd",pid=9867,fd=6))          
