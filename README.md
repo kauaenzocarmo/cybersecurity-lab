@@ -1,17 +1,36 @@
-# Cybersecurity Lab — Linux Security
+Cybersecurity Lab — Linux Security
 
-## Objetivo
-Projeto prático de segurança realizado em um sistema Linux Mint, com foco em análise de serviços, portas, firewall, atualizações e configurações de segurança.
+Sobre o projeto
 
-## Ambiente
-- Sistema: Linux Mint 22.3
-- Base: Ubuntu 24.04 LTS
-- Arquitetura: x86_64
-- Firewall: UFW
-- Ferramenta de análise: Nmap
-- Monitoramento de serviços: ss / systemctl
+Laboratório prático desenvolvido em Linux Mint para aplicar fundamentos de Cybersecurity, administração de sistemas e redes.
 
-## Atividades realizadas
+O projeto aborda a identificação de portas e serviços, análise de configurações, firewall, atualização do sistema e documentação de evidências técnicas.
+
+Objetivo
+
+Avaliar a superfície de exposição do sistema Linux e aplicar boas práticas básicas de segurança, mantendo um registro das análises realizadas.
+
+Ambiente
+
+- Linux Mint 22.3
+- Ubuntu 24.04 LTS
+- Arquitetura x86_64
+- Firewall UFW
+- Nmap
+- Git/GitHub
+
+Ferramentas
+
+- Nmap
+- UFW
+- "ss"
+- "systemctl"
+- CUPS
+- Avahi/mDNS
+- Git
+
+Atividades realizadas
+
 - Inventário da rede local
 - Análise de portas e serviços
 - Verificação do firewall UFW
@@ -21,16 +40,34 @@ Projeto prático de segurança realizado em um sistema Linux Mint, com foco em a
 - Verificação do Bluetooth
 - Atualização dos pacotes do sistema
 - Comparação das configurações antes e depois
-- Registro das evidências e resultados
+- Organização das evidências técnicas
 
-## Resultado
-O sistema foi analisado e documentado, com o firewall configurado para negar conexões de entrada por padrão. O serviço CUPS permanece limitado ao localhost, enquanto o Avahi foi identificado como serviço de descoberta de dispositivos na rede local.
+Estrutura
 
-## Ferramentas
-- Linux Mint
+cybersecurity-lab/
+├── configuracoes/
+├── relatorio/
+├── scans/
+├── .gitignore
+└── README.md
+
+Resultado
+
+O sistema foi analisado e documentado. O UFW estava ativo com política padrão de bloqueio de conexões de entrada, enquanto o CUPS estava limitado ao localhost.
+
+As análises e evidências foram organizadas no repositório para demonstrar o processo realizado durante o laboratório.
+
+Escopo
+
+Todas as análises foram realizadas no próprio sistema Linux utilizado no laboratório, com finalidade educacional e defensiva.
+
+Competências desenvolvidas
+
+- Linux
+- Redes de computadores
+- Análise de portas e serviços
+- Firewall
 - Nmap
-- UFW
-- ss
-- systemctl
-- Avahi
-- CUPS
+- Administração de sistemas
+- Fundamentos de Cybersecurity
+- Documentação técnica
